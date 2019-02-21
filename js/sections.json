@@ -1,0 +1,37 @@
+
+  [{
+    "type": "buttons",
+    "title": "Navigation",
+    "innerTitle": "",
+    "buttons": [
+      {
+        "html": "<img src=\"https://insyncarts.com/wp-content/uploads/2011/07/login-button.jpg\" width=\"275\" height=\"243\"></img>",
+        "title": "Send link to locate nearest T-Mobile Store",
+        "structuredContent": {
+          "type": "vertical",
+          "elements": [
+            {
+              "type": "image",
+              "url": "https://insyncarts.com/wp-content/uploads/2011/07/login-button.jpg"
+            },
+            {
+              "type": "button",
+              "tooltip": "get directions",
+              "title": "Directions to T-mobile store",
+              "click": {
+                "actions": [
+                  {
+                    "type": "link",
+                    "name": "Navigate to store via image",
+                    "uri" : "http://hc1d.dev.lprnd.net/lpwmqa/?site=le72141827&username=barber"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metaData": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+.closedSection {
+    clear: left;
+    display: block;
+}
+
+.titleContainer {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+}
+
+.sectionTitle {
+    float: left;
+    margin: 5px;
+    font-weight: bold;
+    color: #767678;
+}
+
+.sectionArrow {
+    float: right;
+    margin: 5px;
+    width: 12px;
+    height: 12px;
+    background: url(../img/12x12-sprite.png) 0 0 no-repeat;
+}
+
+.sectionArrow.up {
+    background-position: -460px 0;
+}
+
+.sectionArrow.down {
+    background-position: -480px 0;
+}
+
+.openSection {
+    display: none;
+}
+
+.openSection .sectionContainer {
+    background-color: white;
+}
+
+.section.open .openSection {
+    display: block;
+}
+
+.section.open .closedSection {
+    display: none;
+}
+
+.sectionContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
