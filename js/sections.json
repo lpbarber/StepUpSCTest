@@ -23,7 +23,7 @@
                   {
                     "type": "link",
                     "name": "Navigate to store via image",
-                    "uri" : "http://localhost:3000/page1",
+                    "uri" : "http://localhost:3000/page3",
                     "target": "self"
                   }
                 ]
